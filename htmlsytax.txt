@@ -2,8 +2,28 @@
 <> </> syntax
 <!DOCTYPE html> starts doc
 <!-- --> comment
-<a> defines hyperlink
-  <a href= />
+
+<a></a> defines hyperlink
+  <a href= https://www.example.com> inserttext <a/>
+<audio></audio>
+<embed> defines external application
+  <embed src="example.file">
+<img> self-closing command defines an image
+  <img src="example.file" alt="ExampleName" height="1" width="1"> gets image file with name and pixel dimensions (dims optional)
+    -related img sub-commands-
+      <map></map> defines a map covering image dimensions used for interation
+        inside <img></img> sytax last attribute is usemap="#ExampleName"
+        <map name="ExampleName"></map> exclude the # 
+      <area> self-closing command defines clickable area within map
+        <area shape="rect/circle" coords="1,1,1,1" href="example.file" alt="ExampleName"> defines shape at coo,rds,dimen,sions or coo,rds,radius 
+          -example-
+          ---------
+            <img src="example.file" alt="ExampleName" height="1" width="1">
+              <map name="ExampleName">
+                <area shape="circle" coords="1,1,1" href="example1.file" alt="Name1">
+                <area shape="rect" coords="1,1,1,1" href="example2.file" alt="Name2">
+              </map>
+          ---------
 
 
 
