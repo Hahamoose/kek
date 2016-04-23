@@ -20,6 +20,7 @@
 <body></body> defines the content of a webpage 
 <embed> defines external application
   <embed src="example.file">
+
 <head></head> placeholder for general page attributes before the body
   <basefont> self-closing command that defines a default color and font size for the page
     <basefont color="color"  size="1">
@@ -39,6 +40,7 @@
                 <area shape="rect" coords="1,1,1,1" href="example2.file" alt="Name2">
               </map>
           ---------
+<p></p> inserts text in a paragraph
 
 
 
