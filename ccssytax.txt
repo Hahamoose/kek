@@ -1,1 +1,24 @@
-
+=---------CSS-------=c
+olor:font-size: size of the font;
+font-family:font name;font-weight: bold, normal,lighter,bolder,integer(100-900);
+font-style: italic, normal;
+margin: top right bottom left
+margin-top: valuemargin-bottom: value
+margin-left: value
+padding: top right bottom left
+padding-top: value
+padding-right: value
+padding-bottom: value
+padding left: value
+background-color: hexcode, rgb(#,#,#), color
+background: hexcode url("image") no-repeat fixed position;
+text-decoration: underline, overline, line-through;
+text-align: center, right, left
+border: size style color;
+border-style: solid, double, groove, ridge,inset, outset,thick dotted;
+border-(bottom,top,left,right): style color
+border-(bottom,top)-(left,right)-radius: 2em;
+width: length
+height: length
+float: left right
+clear: none, left,right
