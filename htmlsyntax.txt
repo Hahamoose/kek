@@ -17,10 +17,13 @@
           </audio>
         ---------
 <b></b> bolds text and can be used inside a text definer such as <p>text<b>boldtext</b>moretext</p>
+<bdi></bdi> isolates a username for styling
+<bdo></bdo> specifies text direction 
+  <bdo dir="ltr">text</bdo> -outputs- text <bdo dir="rtl">text</bdo> -outputs- txet
 <body></body> defines the content of a webpage 
 <embed> defines external application
   <embed src="example.file">
-
+<h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6> defines size of independent header lines
 <head></head> placeholder for general page attributes before the body
   <basefont> self-closing command that defines a default color and font size for the page
     <basefont color="color"  size="1">
