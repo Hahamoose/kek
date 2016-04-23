@@ -1,5 +1,9 @@
------HTML----
+=-----=HTML=-----=
+<> </> syntax
+<!DOCTYPE html> starts doc
+<!-- --> comment
+<a> defines hyperlink
+  <a href= />
 
 
 
------CSS-----
