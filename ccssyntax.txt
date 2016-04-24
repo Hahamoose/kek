@@ -63,6 +63,36 @@ line-height: number value
   +hieght between lines 
 word-spacing: (#px) [or] (-#px) 
   +increases or decreases the spacing between word
+          *FONTS*
+font-family:"specific", generic family; 
+font-style: normal,italic,oblique; 
+font-size: value;
+font-weight: normal, bold;
+font-variant: normal, small-caps;
+          *LINKS*
++for link states are:
+  a:link-> unvisited 
+  a:visited-> visited
+  a:hover_> mouse over link
+  a:active -> selected link
+a: (visited, link, hover, active){ color: name; }
+a: (visited, link, hover, active) { text-decoration: (none,underline); }
+a: (visited, link, hover, active) { background-color: name; }
+-----------Advanced Links--------------
+a:(link,visited) { 
+  background-color: value;
+  color: value;
+  padding: measurments;
+  text-align: value;
+  text decoration: value;
+  display: inline-block;
+  }
+a:( hover,active) {
+  background-color: value;
+}
+          *LIST PROPERTIES*
+
+
 
 
 
