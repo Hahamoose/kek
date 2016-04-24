@@ -19,3 +19,8 @@ can be typed plain, + addition | - subtraction | / division | * multiplication
 confirm("text"); - displays a box with OK outputting true and Cancel outputting false
 prompt("text"); - displays a box with an input to type characters; text and OK outputs "text" and Cancel outputs null
 
+-Booleans-
+> - outputs true if string is greater than
+  "text".length >3
+< - outputs true if string is less than
+  "text".length <5
