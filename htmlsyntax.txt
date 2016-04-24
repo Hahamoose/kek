@@ -82,7 +82,17 @@ note: | is a break listing possible values
     formnovalidate="formnovalidate" - specifies that input will not be validated when submitted
     formtarget="_blank|_self|_parent|_top|insertframename" - where response is displayed after form submission (for type="submit" and type="image")
     height="1" - defines pixel height (if type="image")
-    
+    list="DatalistID" - inserts predefined <datalist></datalist> into input
+    max="1|numericalCalenderDate" - defines maximum input allowed
+    maxlength="1" - defines maximum character length of input allowed
+    min="1|numericalCalenderDate" - defines minimum input allowed
+    multiple="multiple" - allows multiple inputs
+    name="ExampleName" - defines input name
+    pattern="inserttext" - defines regular expression that the input value is checked against
+    placeholder="inserttext" - example text for what is expected in the input
+    readonly="readonly" - specifies an input as read-only
+    required="required" - defines an input as required for submission
+    size="1"- defines width in charactes of the input
 <kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
 <samp></samp> defines sample output from a program
