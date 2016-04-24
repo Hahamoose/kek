@@ -1,1 +1,17 @@
+=---=JavaScript=---=
+Text is in quotes
+Numbers are standalone
+# is a number
+op is operation
+| is a break between possibilities
+=------------------=
+
+// this is a comment
+
+-Mathematical Operations-
+can be typed plain, + addition | - subtraction | / division | * multiplication
+
+-Commands-
+"text".length - outputs length of text numerically
+confirm('text'); - displays a box with OK outputting true and Cancel outputting false
 
