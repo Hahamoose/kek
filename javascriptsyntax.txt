@@ -3,7 +3,7 @@
 op is operation
 | is a break between possibilities
 ---
-strings are sequences of letters, spaces, and numbers
+strings are sequences of letters and possibly spaces
 strings are written in "quotes"
 numbers are written as standalone numerals
 booleans result in true or false
