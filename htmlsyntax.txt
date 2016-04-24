@@ -45,6 +45,10 @@ note: | is a break listing possible values
   <canvas id="insertName></canvas> followed by a <script></script> block of code
 <center></center>                                centers text .3.
 <code></code> visually specifies computer code
+<datalist></datalist> - defines a list of data
+  <datalist id="ExampleName"></datalist
+    <option> self-contained child command giving a value to a datalist
+      <option value="ExampleName"> can be used multiple times
 <em></em> emphasizes text
 <embed> defines external application
   <embed src="example.file">
