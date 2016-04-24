@@ -1,8 +1,8 @@
 =---=JavaScript=---=
-Numbers are standalone
 # is a number
 op is operation
 | is a break between possibilities
+---
 strings are sequences of letters, spaces, and numbers
 strings are written in "quotes"
 numbers are written as standalone numerals
