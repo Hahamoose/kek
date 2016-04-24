@@ -124,11 +124,22 @@ note: | is a break listing possible values
         <param name="ExampleValue" value="true|false">
 <ol></ol> makes an ordered list
   <li></li>child command makes a list item
+<object></object> sets the output of a form 
 <kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
+<progress></progress> creates a progress bar
+  <progress value="number" max="number"></progress>
+<pre></pre> preformatted text using white space as it appears in the code
+<q></q> quotes text
+<s></s> strike-through text
 <samp></samp> defines sample output from a program
+<span></span> colors text
+  <span style="color:examplecolor">text</span>
+<small></small> defines smaller text
 <strong></strong> defines important text
 <style></style> inserts CSS code within a defined section
+<sub></sub> defines subscript text
+<sup></sup> defines superscript text
 <table></table> makes a table
   <col>self-contained command that makes a single column
     <col span="numbergreaterthan1otherwisewhytypeitlol" style="background-color:color"> makes multiple colums with a certain look; consecutive <col>s format left-to-right
