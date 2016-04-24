@@ -53,7 +53,7 @@ note: | is a break listing possible values
 <details></details> creates something with information that can open and close
 <dialogue></dialogue> creates a dialogue hat can open and close
   <dialogue open>sampletext</dialogue>
-<div></div> marks information to be formatted a certain way in CSS; supports the style attribute
+<div></div> marks information to be formatted a certain way; 
 <dl></dl> makes a description list 
       <dt></dt> makes a child term
       <dd></dd> makes a child description of a term
@@ -66,6 +66,8 @@ note: | is a break listing possible values
 <head></head> placeholder for general page attributes before the body
   <title></title> defines title of the webpage
 <i></i> italicizes text
+<iframe></iframe> embeds a document in a line
+   <iframe src="https://www.example.com"></iframe> 
 <img> self-closing command defines an image
   <img src="example.file" alt="ExampleName" height="1" width="1"> gets image file with name and pxl dimensions (dims optional)
       <map></map> defines a map covering image dimensions used for interation
@@ -113,6 +115,10 @@ note: | is a break listing possible values
     value="inserttext" - specifies the value of an input
     width="1" - defines width of the input (if type="image")
 <ins></ins> inserts text after a deletion
+<link> self-contained command links the document to an external form 
+  <link rel="stylesheet" type="text/css" href="Example.css">
+<ol></ol> makes an ordered list
+  <li></li>child command makes a list item
 <kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
 <samp></samp> defines sample output from a program
@@ -124,6 +130,8 @@ note: | is a break listing possible values
   <td></td> inserts table dialogue; child command to <tr></tr>
   <th></th> defines a table's heading text; child command to <tr></tr>
   <tr></tr> defines contents of a table row; <th></th> and <td></td> are child commands
+<ul></ul> makes an unorded list
+  <li></li>child command makes a list item
 <var></var> defines a variable
 
 
