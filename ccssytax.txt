@@ -1,5 +1,5 @@
 =---------CSS-------=c
-olor:font-size: size of the font;
+color:font-size: size of the font;
 font-family:font name;font-weight: bold, normal,lighter,bolder,integer(100-900);
 font-style: italic, normal;
 margin: top right bottom left
