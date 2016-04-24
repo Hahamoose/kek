@@ -21,6 +21,7 @@ booleans result in true or false
     + - subtraction
     + * multiplication
     + / division
+    + ( ) control order of operations
   // this is a comment
 =------------------=
 -Statements-
