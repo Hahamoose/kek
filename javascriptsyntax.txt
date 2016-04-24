@@ -41,3 +41,6 @@ confirm("text"); - displays a box with OK outputting true and Cancel outputting 
 console.log("text"|#op) - prints parentheses in console; can be used with comparisons to print as a boolean
 prompt("text"); - displays a box with an input to type characters; text and OK outputs "text" and Cancel outputs null
 "text".length - outputs length of text numerically
+"some word".substring (x, y); -display a portion of the string 
+  + x is the starting letter and y is the ending letter
+  + the first letter of the word is considered 0
