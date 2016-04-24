@@ -17,6 +17,8 @@
           </audio>
         ---------
 <b></b> bolds text and can be used inside a text definer such as <p>text<b>boldtext</b>moretext</p>
+<blockquote></blockquote> cites a block of text
+  <blockquote cite="https://www.example.com">text</blockquote>
 <bdi></bdi> isolates a username for styling
 <bdo></bdo> specifies text direction 
   <bdo dir="ltr">text</bdo> -outputs- text <bdo dir="rtl">text</bdo> -outputs- txet
