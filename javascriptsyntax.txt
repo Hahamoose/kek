@@ -8,11 +8,11 @@ strings are written in "quotes"
 numbers are written as standalone numerals
 booleans result in true or false
   =Comparison operators:
-    + >greater than
-    + <less than
+    + > greater than
+    + < less than
     + <= less than or equal to 
-    + >=greater than or equal to 
-    + ===equal to 
+    + >= greater than or equal to 
+    + === equal to 
     + !== NOT equal to
 =------------------=
 
@@ -27,8 +27,4 @@ console.log("text"|#op) - prints parentheses in console; can be used with compar
 prompt("text"); - displays a box with an input to type characters; text and OK outputs "text" and Cancel outputs null
 "text".length - outputs length of text numerically
 
--Booleans-
-> - outputs true if string is greater than
-  "text".length >3
-< - outputs true if string is less than
-  "text".length <5
+
