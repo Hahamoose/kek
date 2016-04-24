@@ -13,5 +13,6 @@ can be typed plain, + addition | - subtraction | / division | * multiplication
 
 -Commands-
 "text".length - outputs length of text numerically
-confirm('text'); - displays a box with OK outputting true and Cancel outputting false
+confirm("text"); - displays a box with OK outputting true and Cancel outputting false
+prompt("text"); - displays a box with an input to type characters; text and OK outputs "text" and Cancel outputs null
 
