@@ -1,18 +1,51 @@
 =---------CSS-------=c
+  USES { code;} disregard all () and []        
+          *BACKGROUND*
+background-color: hexcode, rgb(#,#,#), color;
+background-image: url("image");
+background-repeat: repeat-(x or y),no repeat;
+  +shows the picture multiple times in a vertical or horizontal direction
+background-position: (right left) [and or] (top bottom);
+  +this places the picture in a desired choise
+background-attachment: fixed; 
+  +the image will not scroll with the page
+SHORTHAND: background: color image repeat attachment position;
+          *BORDER*
+border-style: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+border-(left, right, bottom, top)-style: ^^^^^^^^
+  +the following border commands only work if this one is set
+border-width: size [or] thick, medium, thin;
+  +the size can be set in (in px, pt,cm,em,etc)
+  +can use a predefined measurement or a unit
+border-width: # # # #;
+  + width in the order: top right bottom left
+border-color: (name, hexcode, rgb value, transparent)
+  +if this command is not set it take the color of the element
+  SHORTHAND:border: width style color;
+          *MARGINS*
++all margin properties can have the following values+
+      > auto: browser calculated
+      >length: specified using the units mentioned in border
+      >%: specifies a margin in % of the width
+      >inherit: inheritted fromt the parent
+margin-(top, right, bottom, left): value;
+This is how to use the auto margin:
+  width: value
+  margin: auto
+  border: size, style, color
+SHORTHAND: margin: (top right bottom left)
+
+
 color:font-size: size of the font;
 font-family:font name;font-weight: bold, normal,lighter,bolder,integer(100-900);
 font-style: italic, normal;
 margin: top right bottom left
-margin-top: valuemargin-bottom: value
-margin-left: value
+margin-(top,bottom,left,right): value
 padding: top right bottom left
-padding-top: value
-padding-right: value
-padding-bottom: value
-padding left: value
+padding-(top,right,bottom,left): value
 background-color: hexcode, rgb(#,#,#), color
-background: hexcode url("image") no-repeat fixed position;
-text-decoration: underline, overline, line-through;
+textbackground: hexcode url("image") no-repeat fixed position;
+-decoration: underline, overline, line-through;
 text-align: center, right, left
 border: size style color;
 border-style: solid, double, groove, ridge,inset, outset,thick dotted;
