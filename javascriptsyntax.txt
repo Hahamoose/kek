@@ -28,3 +28,19 @@ prompt("text"); - displays a box with an input to type characters; text and OK o
 "text".length - outputs length of text numerically
 
 
+
+
+
+
+if (condition) 
+{
+    // if condition is true
+    // do this code
+}
+else // "otherwise"
+{
+    // do this code instead
+}
+
+
+
