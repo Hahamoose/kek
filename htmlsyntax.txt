@@ -53,7 +53,7 @@ note: | is a break listing possible values
 <details></details> creates something with information that can open and close
 <dialogue></dialogue> creates a dialogue hat can open and close
   <dialogue open>sampletext</dialogue>
-<div></div> marks information to be formatted a certain way; 
+<div></div> marks information to be formatted a certain way; use with id="ExampleName" for external use and/or style="ExampleStyle"
 <dl></dl> makes a description list 
       <dt></dt> makes a child term
       <dd></dd> makes a child description of a term
@@ -123,16 +123,25 @@ note: | is a break listing possible values
 <p></p> inserts text in a paragraph
 <samp></samp> defines sample output from a program
 <strong></strong> defines important text
+<style></style> inserts CSS code within a defined section
 <table></table> makes a table
   <col>self-contained command that makes a single column
     <col span="numbergreaterthan1otherwisewhytypeitlol" style="background-color:color"> makes multiple colums with a certain look; consecutive <col>s format left-to-right
   <colgroup></colgroup> defines a group of columns
+  <thead></thead>
+  <tfoot></tfoot>
+  <tbody></tbody> defines the parts of a table, usually differentiated by style elements
   <td></td> inserts table dialogue; child command to <tr></tr>
   <th></th> defines a table's heading text; child command to <tr></tr>
-  <tr></tr> defines contents of a table row; <th></th> and <td></td> are child commands
+  <tr></tr> defines contents of a table row; <th></th> and <td></td> are child command
+<u></u> underlines text
 <ul></ul> makes an unorded list
   <li></li>child command makes a list item
 <var></var> defines a variable
+<video></video> inserts a video
+  <video width="1" height="1" controls> defines dimensions of video
+    <sorce> self-contained command gives source file of the video
+      <source src="example.file" type="video/file"> child command defines file types 
 
 
 
