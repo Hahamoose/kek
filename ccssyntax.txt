@@ -91,6 +91,37 @@ a:( hover,active) {
   background-color: value;
 }
           *LIST PROPERTIES*
+list-stlye-type: (circle, square, upper-roman, lower-alpha); 
+  +specifies type of item list marker
+list-style-image: url('name');
+  +sepcifies what picture to use as a item list marker
+list-style-position: (inside, outside);
+  + where the item list marker should appear
+SHORTHAND: list-style: styletype position image
+*+ lists can also be paired with background padding and margin+*
+[if working with tables see "Tables Chapter on w3schools]
+          *OUTLINES*
+outline-style: dotted, dashed, solid,double,groove,ridge,inset,outset,none,hiden;
+outline-color: name, rgb value,hexcode, invert
+  +invert shows outline regardless of background
+outline-width: (number in units);
+SHORTHAND: outline: width style color
+  +style is REQUIRED
+-------------------------------------------------------
+Block-level elements
+  + <div>
+  +<h1>-<h6>
+  +<p>
+  +<form>
+  +<header>
+  +<footer>
+  +<section>
+Inline Elements
+  =<span>
+  =<a>
+  =<img>
+++++++++++++++++++++Position, Clear, and Float+++++++++++++++++++++++++++++
+
 
 
 
