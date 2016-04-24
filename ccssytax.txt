@@ -34,6 +34,27 @@ This is how to use the auto margin:
   margin: auto
   border: size, style, color
 SHORTHAND: margin: (top right bottom left)
+          *PADDING*
++padding is affected by the background color of the element+
++padding uses the values from margin except for auto+
+padding-(top right bottom left): value
+SHORTHAND: padding:( top right bottom left);
+          *Height and Width Dimension
++used to set the dimension of an element and this can be set to auto+
++uses the length values or percent+
++these properties dont include border, margin, or padding+
+width: value
+height: value
++DISCLAIMER: max width and height are not included+
+          *TEXT FORMATTING*
+color: (hexcode rgb value name)
+text-align: (center, left, right, justify);
+  +justify makes every line equal width
+text-decoration: none;
+  +main use is to remove underlines from links
+text decoration: (overline, line-through, underline);
+
+
 
 
 color:font-size: size of the font;
