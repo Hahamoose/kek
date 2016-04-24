@@ -22,9 +22,10 @@ booleans result in true or false
 can be typed plain, + addition | - subtraction | / division | * multiplication
 
 -Commands-
-"text".length - outputs length of text numerically
 confirm("text"); - displays a box with OK outputting true and Cancel outputting false
+console.log("text"|#op) - prints parentheses in console; can be used with comparisons to print as a boolean
 prompt("text"); - displays a box with an input to type characters; text and OK outputs "text" and Cancel outputs null
+"text".length - outputs length of text numerically
 
 -Booleans-
 > - outputs true if string is greater than
