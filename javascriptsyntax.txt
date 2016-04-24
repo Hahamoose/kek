@@ -22,6 +22,7 @@ booleans result in true or false
     + * multiplication
     + / division
     + ( ) control order of operations
+    + % (modulo) spits out the remainder
   // this is a comment
 =------------------=
 -Statements-
