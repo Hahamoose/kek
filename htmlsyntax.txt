@@ -49,9 +49,19 @@ note: | is a break listing possible values
   <datalist id="ExampleName"></datalist
     <option> self-contained child command giving a value to a datalist
       <option value="ExampleName"> can be used multiple times
+<del></del> deletes text
+<details></details> creates something with information that can open and close
+<dialogue></dialogue> creates a dialogue hat can open and close
+  <dialogue open>sampletext</dialogue>
+<div></div> marks information to be formatted a certain way in CSS; supports the style attribute
+<dl></dl> makes a description list 
+      <dt></dt> makes a child term
+      <dd></dd> makes a child description of a term
 <em></em> emphasizes text
 <embed> defines external application
   <embed src="example.file">
+<font></font> specifies a font
+  <font face="FontName" color="color" size="1">text</font>
 <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6> defines size of independent header lines
 <head></head> placeholder for general page attributes before the body
   <title></title> defines title of the webpage
@@ -69,7 +79,7 @@ note: | is a break listing possible values
                 <area shape="circle" coords="1,1,1" href="example1.file" alt="Name1">
                 <area shape="rect" coords="1,1,1,1" href="example2.file" alt="Name2">
               </map>
-          ---------
+          ---------    
 <input></input> defines an input
   -attributes="values"-
     accept="example.file|audio/file|video/file|image/file" - specifies accepted inputs (if type="file")
@@ -78,7 +88,6 @@ note: | is a break listing possible values
     autofocus="autofocus" - page load priority
     checked="checked" - defines if input is pre-selected (if type="checkbox|radio")
     dirname="ExampleName.dir" - specifies that text direction will be submitted
-    disabled="disabled" - defines input as disabled
     form="insertformID" - specifies what form an input belongs to if that applies
     formaction="insertURL" - specifies what URL to send the input to (for type="submit" and type="image")
     formenctype="application/x-www-form-URLencoded-multipart/form-datatext/plain" - how data sent to a server is encoded (for type="submit" and type="image")
@@ -102,6 +111,7 @@ note: | is a break listing possible values
     type="button|checkbox|color|date|time|datetime|local|email|file|hidden|image|month|number|password|radio|range|reset|search|submit|tel|text|time|URL|week - defines the type of input
     value="inserttext" - specifies the value of an input
     width="1" - defines width of the input (if type="image")
+<ins></ins> inserts text after a deletion
 <kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
 <samp></samp> defines sample output from a program
