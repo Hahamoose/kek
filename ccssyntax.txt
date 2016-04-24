@@ -120,7 +120,13 @@ Inline Elements
   =<span>
   =<a>
   =<img>
-++++++++++++++++++++Position, Clear, and Float+++++++++++++++++++++++++++++
+          +CLEAR and FLOT+
+float: position
+  +used to wrap an image around text
+  +used with the 'img' syntax
+clear: position
+  +placed in <div> syntax
+  + shows where element floating elements are not allowed to float
 
 
 
