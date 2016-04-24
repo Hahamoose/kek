@@ -34,13 +34,13 @@ note: | is a break listing possible values
       autofocus="autofocus" - gives button load priority
       disabled="disabled" - disables button
       form="insertformID" - specifies what form a button belongs to if that applies
-      formaction="insertURL" - specifies what URL to send the input to (if type="submit)
+      formaction="insertURL" - specifies what URL to send the input to (if type="submit")
       formenctype="application/x-www-form-URLencoded-multipart/form-datatext/plain" - how data sent to a server is encoded
       formmethod="get|post" - specifies which HTTP method to send data with (if type="submit")
       formtarget="_blank|_self|_parent|_top|insertframename" - where response is displayed after form submission
-      name="insertName" - gives the button a name
+      name="ExampleName" - gives the button a name
       type="button|reset|submit" - specifies type of button
-      value="insertText" - gives the button a value
+      value="exampleText" - gives the button a value
 <canvas></canvas> used for giving an ID for use in a script as a variable to draw a graphic
   <canvas id="insertName></canvas> followed by a <script></script> block of code
 <center></center>                                centers text .3.
@@ -68,6 +68,20 @@ note: | is a break listing possible values
           ---------
 <input></input> defines an input
   -attributes="values"-
+    accept="example.file|audio/file|video/file|image/file" - specifies accepted inputs (if type="file")
+    alt="ExampleName" - defines name for an image (if type="image")
+    autocomplete="on|off" - defines if autocomplete should be active
+    autofocus="autofocus" - page load priority
+    checked="checked" - defines if input is pre-selected (if type="checkbox|radio")
+    dirname="ExampleName.dir" - specifies that text direction will be submitted
+    disabled="disabled" - defines input as disabled
+    form="insertformID" - specifies what form an input belongs to if that applies
+    formaction="insertURL" - specifies what URL to send the input to (for type="submit" and type="image")
+    formenctype="application/x-www-form-URLencoded-multipart/form-datatext/plain" - how data sent to a server is encoded (for type="submit" and type="image")
+    formmethod="get|post" - specifies which HTTP method to send data with (for type="submit" and type="image")
+    formnovalidate="formnovalidate" - specifies that input will not be validated when submitted
+    formtarget="_blank|_self|_parent|_top|insertframename" - where response is displayed after form submission (for type="submit" and type="image")
+    height="1" - defines pixel height (if type="image")
     
 <kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
