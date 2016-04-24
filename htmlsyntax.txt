@@ -95,7 +95,9 @@ note: | is a break listing possible values
     size="1"- defines width in charactes of the input
     src="URL"- specifies an image as the submit button (if type="image")
     step="1" - defines allowed intervals in the input
-    type="button|checkbox|color|date|time|datetime-local|email|file|hidden|image|month|number|password|radio|range|reset|search
+    type="button|checkbox|color|date|time|datetime|local|email|file|hidden|image|month|number|password|radio|range|reset|search|submit|tel|text|time|URL|week - defines the type of input
+    value="inserttext" - specifies the value of an input
+    width="1" - defines width of the input (if type="image")
 <kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
 <samp></samp> defines sample output from a program
