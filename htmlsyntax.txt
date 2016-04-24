@@ -65,6 +65,7 @@ note: | is a break listing possible values
 <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6> defines size of independent header lines
 <head></head> placeholder for general page attributes before the body
   <title></title> defines title of the webpage
+<i></i> italicizes text
 <img> self-closing command defines an image
   <img src="example.file" alt="ExampleName" height="1" width="1"> gets image file with name and pxl dimensions (dims optional)
       <map></map> defines a map covering image dimensions used for interation
