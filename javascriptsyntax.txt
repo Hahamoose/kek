@@ -9,6 +9,7 @@ strings are sequences of letters and possibly spaces
 strings are written in "quotes"
 numbers are written as standalone numerals
 booleans result in true or false
+---
   Comparison operators:
     + > greater than
     + < less than
@@ -16,6 +17,7 @@ booleans result in true or false
     + >= greater than or equal to 
     + === equal to 
     + !== NOT equal to
+---
   Mathematical operators:
     + + addition
     + - subtraction
@@ -23,8 +25,11 @@ booleans result in true or false
     + / division
     + ( ) control order of operations
     + % (modulo) spits out the remainder
+---
   // this is a comment
+---
 =------------------=
+
 -Statements-
 if (condition) 
 {
