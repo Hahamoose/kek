@@ -53,6 +53,16 @@ text-align: (center, left, right, justify);
 text-decoration: none;
   +main use is to remove underlines from links
 text decoration: (overline, line-through, underline);
+text-transform: (uppercase lowercase capitalize)
+  +transfrorms the whole text into the specified style
+text-indent: value (in px)
+  + indicates the indent of the first line
+letter-spacing: (#px) [or] (-#px)
+  +increases or decreases the space
+line-height: number value
+  +hieght between lines 
+word-spacing: (#px) [or] (-#px) 
+  +increases or decreases the spacing between word
 
 
 
