@@ -30,7 +30,7 @@ note: | is a break listing possible values
 <br> self-contained command inserted within text to shift the following text down one line texttext<br>texttext<br>texttext
 <button></button> makes... a button?
   <button type="attribute">text/file</button>
-    -attributes=values-
+    -attributes="values"-
       autofocus="autofocus" - gives button load priority
       disabled="disabled" - disables button
       form="insertformID" - specifies what form a button belongs to if that applies
@@ -44,6 +44,8 @@ note: | is a break listing possible values
 <canvas></canvas> used for giving an ID for use in a script as a variable to draw a graphic
   <canvas id="insertName></canvas> followed by a <script></script> block of code
 <center></center>                                centers text .3.
+<code></code> visually specifies computer code
+<em></em> emphasizes text
 <embed> defines external application
   <embed src="example.file">
 <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6> defines size of independent header lines
@@ -64,7 +66,21 @@ note: | is a break listing possible values
                 <area shape="rect" coords="1,1,1,1" href="example2.file" alt="Name2">
               </map>
           ---------
+<input></input> defines an input
+  -attributes="values"-
+    
+<kbd></kbd> defines keyboard input
 <p></p> inserts text in a paragraph
+<samp></samp> defines sample output from a program
+<strong></strong> defines important text
+<table></table> makes a table
+  <col>self-contained command that makes a single column
+    <col span="numbergreaterthan1otherwisewhytypeitlol" style="background-color:color"> makes multiple colums with a certain look; consecutive <col>s format left-to-right
+  <colgroup></colgroup> defines a group of columns
+  <td></td> inserts table dialogue; child command to <tr></tr>
+  <th></th> defines a table's heading text; child command to <tr></tr>
+  <tr></tr> defines contents of a table row; <th></th> and <td></td> are child commands
+<var></var> defines a variable
 
 
 
