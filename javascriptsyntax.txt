@@ -36,6 +36,9 @@ else // "otherwise"
      // do this code instead
 }
 
+-Variables-
+var varName = ExampleName; - declares the id of a variable; works with strings, numbers, and booleans (name is CaSe SeNsItIvE)
+
 -Commands-
 confirm("text"); - displays a box with OK outputting true and Cancel outputting false
 console.log("text"|1); - prints parentheses in console; can be used with comparisons to print as a boolean
